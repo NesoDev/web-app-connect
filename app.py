@@ -18,4 +18,4 @@ def index():
     return jsonify({"lst_sort": lst_sort})
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(host="0.0.0.0", port=5020, debug=True)
